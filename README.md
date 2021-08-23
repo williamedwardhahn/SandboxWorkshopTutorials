@@ -1,7 +1,7 @@
 # SandboxWorkshopTutorials
 
 
-All Events and Activities Recorded with Deep Zoo Forms
+* All Events and Activities Recorded with Deep Zoo Forms
 In-Person Limited < 10 persons (RSVP required)
 Online Unlimited (Registration required)
 Generic Pre and Post Quiz for Each Week
