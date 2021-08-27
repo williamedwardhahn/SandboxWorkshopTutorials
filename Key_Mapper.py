@@ -22,13 +22,23 @@ def keys():
 			run = False
 	return np.where(pygame.key.get_pressed())[0]
 
+def mouse():
+	for event in pygame.event.get():
+		if event.type == pygame.QUIT:
+			run = False
+	return (pygame.mouse.get_pos(), np.where(pygame.mouse.get_pressed())[0])
+
 
 run = True
 while run:
 
 	clock.tick(fps)
 
+
 	print(keys())
+
+	print(mouse())
+
 
 	pygame.display.update()
 
