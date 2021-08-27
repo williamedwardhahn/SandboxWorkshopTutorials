@@ -2,7 +2,6 @@ import os
 os.system("pip install --ignore-installed  git+https://github.com/williamedwardhahn/DeepZoo")
 from DeepZoo import *
 
-
 image = io.imread("https://opengameart.org/sites/default/files/chicken_walk.png")[:,:,:3]
 
 plot(image)
