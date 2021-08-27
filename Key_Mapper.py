@@ -34,11 +34,9 @@ while run:
 
 	clock.tick(fps)
 
-
 	print(keys())
 
 	print(mouse())
-
 
 	pygame.display.update()
 
