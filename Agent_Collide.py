@@ -19,15 +19,15 @@ def flipimg(x):
     x = np.rot90(x,k=1,axes=(0,1))
     return x
 
-def draw_bg():
-	screen.fill((0,0,0))
-	screen.blit(background_s, (0,0))
-
 def get_google_slide(url):
     url_head = "https://docs.google.com/presentation/d/"
     url_body = url.split('/')[5]
     page_id = url.split('.')[-1]
     return url_head + url_body + "/export/png?id=" + url_body + "&pageid=" + page_id
+
+def blit_array(b,xy):
+    screen.blit(pg.surfarray.make_surface(b*1.0),(xy[0],xy[1]))
+
 
 url1 = "https://docs.google.com/presentation/d/1evbdOf5w0Rv71DS-rWxjA5t1Z9lPIsfNFCePSfJ_UCE/edit#slide=id.p"
 
@@ -89,12 +89,12 @@ while run:
 
     clock.tick(fps)
 
-    draw_bg()
-
+    screen.fill((0,0,0))
+    screen.blit(background_s, (0,0))
     screen.blit(agent_image, (x,y))
 
 
-    screen.blit(pg.surfarray.make_surface(mask[x:x+w,y:y+h]*1.0),(0,0))
+    blit_array(mask[x:x+w,y:y+h],(0,0))
 
     k = keys()
 
