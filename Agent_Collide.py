@@ -58,7 +58,8 @@ while run:
     x += speed*k[right]
 
 
-    collision = np.prod(mask[x:x+w,y:y+h])
+    collision = mask[x:x+w,y:y+h]
+    collision = np.sum(collision==1) / len(collision.flatten())
     print(collision)
     # run *= collision
 
