@@ -24,3 +24,13 @@
 * Customization
 * Customized Demo Presentations
 
+
+
+### Links
+https://www.raeng.org.uk/publications/other/candes-presentation-frontiers-of-engineering
+
+https://web.yonsei.ac.kr/nipi/lectureNote/Compressed%20Sensing%20by%20Romberg%20and%20Wakin.pdf
+
+http://3dvision.princeton.edu/courses/COS598/2014sp/slides/lecture20_Compressive_Sensing.pdf
+
+
