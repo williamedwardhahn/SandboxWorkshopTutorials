@@ -33,4 +33,6 @@ https://web.yonsei.ac.kr/nipi/lectureNote/Compressed%20Sensing%20by%20Romberg%20
 
 http://3dvision.princeton.edu/courses/COS598/2014sp/slides/lecture20_Compressive_Sensing.pdf
 
+https://lear.inrialpes.fr/people/mairal/resources/pdf/review_sparse_arxiv.pdf#toolbar=0
+
 
